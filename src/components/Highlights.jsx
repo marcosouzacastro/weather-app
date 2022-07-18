@@ -22,7 +22,7 @@ function Highlights() {
     <>
       <div className="highlight-container">
         <Card className="h-card">
-          <div className="h-title">Humidity</div>
+          <div className="h-title">Humedad</div>
           <img src="/weather_icons/humidity.png" width={100} alt="" />
           <div className="hl-value">
             <h1>{current.humidity}</h1>
@@ -30,7 +30,7 @@ function Highlights() {
           </div>
         </Card>
         <Card className="h-card">
-          <div className="h-title">Wind Speed</div>
+          <div className="h-title">Velocidad del Viento</div>
           <img
             src={`/weather_icons/wind-${isDark ? "night" : "day"}.png`}
             width={100}
@@ -46,19 +46,19 @@ function Highlights() {
             <img src="/weather_icons/sunrise.png" width={50} alt="" />
             <div>
               {formatter.format(new Date(current.sunrise * 1000))}
-              <span>Sunrise</span>
+              <span>Amanecer</span>
             </div>
           </div>
           <div className="sun-info">
             <img src="/weather_icons/sunset.png" width={50} alt="" />
             <div>
               {formatter.format(new Date(current.sunset * 1000))}
-              <span>Sunset</span>
+              <span>Puesta de sol</span>
             </div>
           </div>
         </Card>
         <Card className="h-card">
-          <div className="h-title">Clouds</div>
+          <div className="h-title">Nubes</div>
           <img src="/weather_icons/clouds.png" width={100} alt="" />
 
           <div className="hl-value">
@@ -67,12 +67,12 @@ function Highlights() {
           </div>
         </Card>
         <Card className="h-card">
-          <div className="h-title">UV Index</div>
+          <div className="h-title">Índice UV</div>
           <img src="/weather_icons/uv.png" width={100} alt="" />
           <h1>{current.uvi}</h1>
         </Card>
         <Card className="h-card">
-          <div className="h-title">Pressure</div>
+          <div className="h-title">Presión</div>
           <img src="/weather_icons/pressure.png" width={100} alt="" />
 
           <div className="hl-value">

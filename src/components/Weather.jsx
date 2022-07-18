@@ -38,7 +38,7 @@ function Weather() {
         <span>°{unit}</span>
       </h2>
       <div className="feels-like">
-        Feels like <Temperature temperature={current.feels_like} /> °{unit}
+      Sensación Térmica <Temperature temperature={current.feels_like} /> °{unit}
       </div>
       <div className="description">
         <i className="fa-brands fa-cloudversify"></i>&nbsp;

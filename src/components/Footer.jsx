@@ -12,7 +12,7 @@ function Footer() {
     <>
       <footer className="footer">
         <a
-          href="https://github.com/hicodersofficial/weather-app"
+          href="https://github.com/marcosouzacastro/weather-app"
           target="_blank"
           rel="noreferrer"
           style={isDark ? anchorStyle : null}
@@ -20,7 +20,7 @@ function Footer() {
           <i class="fa-brands fa-github"></i> <span>GitHub</span>
         </a>
         <a
-          href="https://github.com/hicodersofficial/weather-app"
+          href="https://github.com/marcosouzacastro/weather-app"
           target="_blank"
           rel="noreferrer"
           style={isDark ? anchorStyle : null}
@@ -28,7 +28,7 @@ function Footer() {
           <i class="fa-solid fa-code-fork"></i> <span>Fork</span>
         </a>
         <a
-          href="https://github.com/hicodersofficial/weather-app"
+          href="https://github.com/marcosouzacastro/weather-app"
           target="_blank"
           rel="noreferrer"
           style={isDark ? anchorStyle : null}
@@ -36,7 +36,7 @@ function Footer() {
           <i class="fa-solid fa-star"></i> <span>Star</span>
         </a>
         <a
-          href="https://www.instagram.com/p/CfoixJ0vM_P/"
+          href="https://www.instagram.com/"
           target="_blank"
           rel="noreferrer"
           style={isDark ? anchorStyle : null}

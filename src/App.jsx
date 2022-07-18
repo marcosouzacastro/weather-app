@@ -104,7 +104,7 @@ function App() {
         </div>
         <div className="col-right" style={app.isDark ? colRightStyle : null}>
           <div className="top-header">
-            <h2 className="heading">Today</h2>
+            <h2 className="heading">Hoy</h2>
             <div className="units">
               <span
                 style={
@@ -137,9 +137,9 @@ function App() {
             </div>
           </div>
           <Hourly />
-          <h2 className="heading">Today's Highlights</h2>
+          <h2 className="heading">Destacados de hoy</h2>
           <Highlights />
-          <h2 className="heading">This Week</h2>
+          <h2 className="heading">Esa Semana</h2>
           <Forecast />
           <Footer />
         </div>

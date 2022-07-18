@@ -39,7 +39,7 @@ function CityInput() {
         type="text"
         ref={input}
         style={isDark ? { background: "#232b39", color: "#fff" } : null}
-        placeholder="Search for places ..."
+        placeholder="Buscar lugares ..."
         onInput={(e) => {
           const value = e.target.value;
           clearTimeout(time);
